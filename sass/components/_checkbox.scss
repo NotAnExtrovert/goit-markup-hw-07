@@ -1,0 +1,54 @@
+/* main form checkbox */ 
+.checkbox-form {
+    display: flex;
+    cursor: pointer;
+
+    &--position {
+            margin-left: 13px;
+            margin-bottom: 30px;
+        }
+    
+    &__input {
+            appearance: none;
+        }
+    
+    &__text {
+            position: relative;
+            padding-left: 16px;
+            color: var(--color-secondary);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7142;
+            letter-spacing: 0.03em;
+            cursor: pointer;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+    &__input:checked+.agreement__icon {
+    fill: var(--color-white);
+    background-color: var(--color-axion);
+    border: none;
+
+        }
+
+    &__link {
+    color: var(--color-axion);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    text-decoration: underline 1px;
+        }
+}
+
+.agreement__icon {
+    position: absolute;
+    fill: transparent;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    margin: 4px 8px 4px 0;
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

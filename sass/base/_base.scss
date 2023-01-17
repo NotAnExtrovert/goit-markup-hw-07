@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--color-primary);
+    max-width: 1600px;
+    width: 100%;
+    margin: 0;
+}
+
+address {
+    margin-bottom: 12px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    display: block;
+}
+textarea {
+    resize: none;
+}

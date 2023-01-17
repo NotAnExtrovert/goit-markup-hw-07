@@ -1,0 +1,96 @@
+.footer {
+    position: relative;
+    background-color: #2F303A;
+    padding: 60px 0;
+
+        &__email {
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+        &__email:hover {
+            color: var(--color-axion);
+        }
+    
+        &__email:focus {
+            color: var(--color-axion);
+        }
+    
+        &__num {
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.714;
+            letter-spacing: 0.03em;
+
+            &:hover {
+                    color: var(--color-axion);
+                }
+            
+            &:focus {
+                    color: var(--color-axion);
+                }
+        }
+    
+        
+    
+        &__email-position {
+            margin-bottom: 12px;
+        }
+    
+        &__position {
+            display: flex;
+            justify-content: left;
+            align-items: baseline;
+            gap: 70px;
+        }
+    
+        &__title {
+            color: var(--color-white);
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.143;
+            letter-spacing: 0.03em;
+            margin-bottom: 20px;
+        }
+    
+        &__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            fill: var(--color-white);
+            border-radius: 50%;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover {
+                    background-color: var(--color-axion);
+                }
+            
+            &:focus {
+                    background-color: var(--color-axion);
+                }
+        }  
+
+        &__form {
+                    margin-left: auto;
+        }
+}
+
+.address {
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
